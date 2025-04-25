@@ -1,0 +1,49 @@
+
+header {
+  
+  background: pink;
+  padding: none;
+  padding-top: 10px;
+  text-align: center;
+  animation: blink 3s ;
+     
+}
+
+
+ #kostya {
+   
+   height: 400px;
+   width: 400px;
+   animation: blink 3s ;
+     
+ }
+ 
+ #b1 {
+   
+  height: 100px;
+  animation: blink 3s;
+
+ }
+ 
+  @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      
+      p {
+        
+        
+        animation: blink 3s ;
+      }
+      
+      body {
+        animation: blink 1s;
+      }
+      
+      #p2 {
+        animation: blink 3s ;
+     
+      }
